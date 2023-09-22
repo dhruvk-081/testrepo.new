@@ -54,31 +54,31 @@
 //   }
 // });
 
-document.addEventListener("scroll", () => {
-  const navbarEl = document.querySelector(".navbar");
-  if (window.scrollY > 180) {
-    navbarEl.classList.add("navbar-scrolled");
-  } else {
-    navbarEl.classList.remove("navbar-scrolled");
-  }
-});
-
-// const counts = document.querySelectorAll(".count");
-// const speed = 97;
-// counts.forEach((counter) => {
-//   function data() {
-//     const target = Number(counter.getAttribute("data-target"));
-//     const count = Number(counter.innerText);
-//     const inc = target / speed
-//     if (count < target) {
-//       counter.innerText = Math.floor(inc + count);
-//       setTimeout(data,1)
-//     } else {
-//       counter.innerText = target
-//     }
+// document.addEventListener("scroll", () => {
+//   const navbarEl = document.querySelector(".navbar");
+//   if (window.scrollY > 780) {
+//     navbarEl.classList.add("navbar-scrolled");
+//   } else {
+//     navbarEl.classList.remove("navbar-scrolled");
 //   }
-//   data();
 // });
+
+const counts = document.querySelectorAll(".count");
+const speed = 97;
+counts.forEach((counter) => {
+  function data() {
+    const target = Number(counter.getAttribute("data-target"));
+    const count = Number(counter.innerText);
+    const inc = target / speed
+    if (count < target) {
+      counter.innerText = Math.floor(inc + count);
+      setTimeout(data,1)
+    } else {
+      counter.innerText = target
+    }
+  }
+  data();
+});
 
 // **********************************************************************
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

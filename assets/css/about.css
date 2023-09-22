@@ -33,16 +33,16 @@ body {
   min-height: 400px;
 }
 .pimg3 {
-  background-image: url('../image-shiksharth/348576627_277746761313337_641436365725500934_n.jpg');
+  background-image: url("../image-shiksharth/348576627_277746761313337_641436365725500934_n.jpg");
   min-height: 400px;
 }
 .pimg4 {
-  background-image: url('../image-shiksharth/344795330_194770716705794_507474729942105407_n.jpg');
+  background-image: url("../image-shiksharth/344795330_194770716705794_507474729942105407_n.jpg");
   /* background-image: url('../image-shiksharth/312231084_3059935197640270_5942715044157770581_n.jpg'); */
   min-height: 400px;
 }
 .pimg5 {
-  background-image: url('https://shiksharth.in/wp-content/uploads/2022/10/IMG-20220121-WA0132.jpg');
+  background-image: url("https://shiksharth.in/wp-content/uploads/2022/10/IMG-20220121-WA0132.jpg");
   min-height: 400px;
 }
 .pimg1,
@@ -78,10 +78,20 @@ body {
 .section-light {
   background-color: var(--white);
   color: var(--brown);
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-size: 18px;
 }
 .section-dark {
   background-color: #282e34;
   color: #ddd;
+}
+
+.sideList {
+  border-left: 3px solid #e05b37;
+  padding-left: 1rem;
+}
+.sideList a:hover {
+  font-size: 2rem;
+  color: #0a0a0a;
+  /* border-bottom: 1px solid #5252ff; */
 }
