@@ -76,22 +76,24 @@ body {
   text-align: center;
 }
 .section-light {
-  background-color: var(--white);
+  background-color: #ebebeb;
   color: var(--brown);
   font-family: "Mulish";
   font-size: 18px;
 }
-.section-dark {
-  background-color: #282e34;
-  color: #ddd;
+.section-lite {
+  background-color: #fdf7c2;
 }
 
 .sideList {
   border-left: 3px solid #e05b37;
   padding-left: 1rem;
 }
+.sideList a {
+  color: #492109;
+}
 .sideList a:hover {
   font-size: 2rem;
-  color: #0a0a0a;
+  color: #3b71ca;
   /* border-bottom: 1px solid #5252ff; */
 }

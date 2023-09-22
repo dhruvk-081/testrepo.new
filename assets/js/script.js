@@ -69,12 +69,12 @@ counts.forEach((counter) => {
   function data() {
     const target = Number(counter.getAttribute("data-target"));
     const count = Number(counter.innerText);
-    const inc = target / speed
+    const inc = target / speed;
     if (count < target) {
       counter.innerText = Math.floor(inc + count);
-      setTimeout(data,1)
+      setTimeout(data, 1);
     } else {
-      counter.innerText = target
+      counter.innerText = target;
     }
   }
   data();
@@ -85,8 +85,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
 
-  
-  const textEffect = (event) => {
+const textEffect = (event) => {
   let iteration = 0;
 
   clearInterval(interval);
@@ -153,7 +152,6 @@ let CounterObserver = new IntersectionObserver(
 );
 
 CounterObserver.observe(section_counter);
-
 
 // **********************************************************************
 const toTop = document.querySelector(".to-top");
