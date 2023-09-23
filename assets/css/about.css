@@ -1,9 +1,16 @@
+@font-face {
+  font-display: block;
+  font-family: "wf_ef8b03dc12d647a4be1ba06fc";
+  src: url(../fonts/wfont_d23f19_ef8b03dc12d647a4be1ba06fc40b277d.woff2) format("woff2");
+}
+
 html,
 body {
   height: 100%;
   margin: 0;
   font-size: 16px;
-  font-family: "lato", sans-serif;
+  font-family: "wf_ef8b03dc12d647a4be1ba06fc";
+  /* font-family: "lato", sans-serif; */
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
@@ -78,7 +85,7 @@ body {
 .section-light {
   background-color: #ebebeb;
   color: var(--brown);
-  font-family: "Mulish";
+  /* font-family: "Mulish"; */
   font-size: 18px;
 }
 .section-lite {

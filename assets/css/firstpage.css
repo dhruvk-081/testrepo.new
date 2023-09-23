@@ -9,11 +9,18 @@
   font-family: "Halvitica";
   src: url(../fonts/Halvitica_b46630e470f4040eba7033cf2435edce.woff) format("woff");
 }
+@font-face {
+  font-display: block;
+  font-family: "wf_ef8b03dc12d647a4be1ba06fc";
+  src: url(../fonts/wfont_d23f19_ef8b03dc12d647a4be1ba06fc40b277d.woff2) format("woff2");
+  /* src: url("https://static.wixstatic.com/ufonts/d23f19_ef8b03dc12d647a4be1ba06fc40b277d/woff2/file.woff2") format("woff2"), url("https://static.wixstatic.com/ufonts/d23f19_ef8b03dc12d647a4be1ba06fc40b277d/woff/file.woff") format("woff"), url("https://static.wixstatic.com/ufonts/d23f19_ef8b03dc12d647a4be1ba06fc40b277d/ttf/file.ttf") format("ttf"); */
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "wf_ef8b03dc12d647a4be1ba06fc";
 }
 
 :root {
@@ -31,44 +38,44 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-      .zeroSection {
-        height: 100vh;
-        background-color: #d48031;
-        color: white;
-      }
+.zeroSection {
+  height: 100vh;
+  background-color: #d48031;
+  color: white;
+}
 
-      .zeroSection .h-1 {
-        padding: 1.5rem;
-        /* background-color: #492109 ; */
-      }
-      .zeroSection .h-2 {
-        width: 100%;
-        text-align: center;
-        padding: 4rem;
-        background-color: #492109;
-      }
+.zeroSection .h-1 {
+  padding: 1.5rem;
+  /* background-color: #492109 ; */
+}
+.zeroSection .h-2 {
+  width: 100%;
+  text-align: center;
+  padding: 4rem;
+  background-color: #492109;
+}
 
-      .zerothDIv {
-        height: 95vh;
-        background-color: #492109;
-      }
-      .zerothDIv #textDiv {
-        /* width: 50%; */
-        /* display: flex;
+.zerothDIv {
+  height: 95vh;
+  background-color: #492109;
+}
+.zerothDIv #textDiv {
+  /* width: 50%; */
+  /* display: flex;
         flex-direction: column;
         padding: 3rem;
         justify-content: center;
         align-items: center; */
-      }
-      #textDiv p {
-        margin-bottom: 40px;
-        font-size: 3.5rem;
-        font-weight: 800;
-      }
+}
+#textDiv p {
+  margin-bottom: 40px;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
 nav {
   /* position: sticky;
   top: 0; */
-  background-color: #ffffffc5;
+  background-color: #ffffffde;
   /* height: 80px;
   width: 100%; */
   box-shadow: 0px 4px 7px #777;
