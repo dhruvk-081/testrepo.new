@@ -133,9 +133,9 @@
   font-family: "Poppins", sans-serif;
 } */
 
-.our-team{
-	text-align: center;
-	margin: 30px;
+.our-team {
+  text-align: center;
+  margin: 30px;
 }
 .team-body {
   display: flex;
@@ -173,7 +173,7 @@
   transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
 }
 .wrapper:hover > .front-face {
-  transform: rotateY(-180deg);
+  /* transform: rotateY(-180deg); */
 }
 .wrapper .card img {
   height: 100%;
@@ -186,10 +186,10 @@
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  transform: rotateY(180deg);
+  /* transform: rotateY(180deg); */
 }
 .wrapper:hover > .back-face {
-  transform: rotateY(0deg);
+  /* transform: rotateY(0deg); */
 }
 .wrapper .back-face img {
   height: 150px;
@@ -227,6 +227,6 @@
   background: linear-gradient(375deg, transparent, transparent);
 }
 
-nav{
+nav {
   background: #fff;
 }
